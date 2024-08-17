@@ -33,6 +33,7 @@
 #include <QString>
 #include <proc/readproc.h>
 #include <unordered_set>
+#include <QPainterPath>
 
 DWM_USE_NAMESPACE
 

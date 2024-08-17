@@ -24,6 +24,7 @@
 #ifndef COMPACTNETWORKMONITOR_H
 #define COMPACTNETWORKMONITOR_H
 
+#include <QPainterPath>
 #include <QWidget>
 
 class CompactNetworkMonitor : public QWidget

@@ -27,6 +27,8 @@
 #include <QString>
 #include <string>
 
+// Qt5.14.0引入了 QString 的hash函数，所以如果qt版本过高会产生编译错误
+#if (QT_VERSION < QT_VERSION_CHECK(5, 14, 0))
 namespace std {
     template<> struct hash<QString>
     {
@@ -36,5 +38,6 @@ namespace std {
             }
     };
 }
+#endif
 
 #endif // HASHQSTRING_H

@@ -25,6 +25,7 @@
 #define COMPACTDISKMONITOR_H
 
 #include <QWidget>
+#include <QPainterPath>
 
 class CompactDiskMonitor : public QWidget
 {

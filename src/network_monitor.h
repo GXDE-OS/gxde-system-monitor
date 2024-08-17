@@ -24,6 +24,7 @@
 #ifndef NETWORKMONITOR_H
 #define NETWORKMONITOR_H
 
+#include <QPainterPath>
 #include <QWidget>
 
 class NetworkMonitor : public QWidget

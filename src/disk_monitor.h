@@ -25,6 +25,7 @@
 #define DISKMONITOR_H
 
 #include <QWidget>
+#include <QPainterPath>
 
 class DiskMonitor : public QWidget
 {

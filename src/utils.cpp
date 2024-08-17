@@ -47,6 +47,7 @@
 #include <string>
 #include <time.h>
 #include <unordered_set>
+#include <QPainterPath>
 
 namespace Utils {
     QMap<QString, QString> desktopfileMaps = getDesktopfileMap();

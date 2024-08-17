@@ -29,6 +29,7 @@
 #include <QTimer>
 #include <QVBoxLayout>
 #include <QWidget>
+#include <QPainterPath>
 
 class CpuMonitor : public QWidget
 {
